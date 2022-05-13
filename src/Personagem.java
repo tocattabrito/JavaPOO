@@ -23,7 +23,7 @@ public class Personagem {
     return dano;
   }
 
-  // Método que não retorna nada e recebe um parâmetro alvo que é do tipo String
+  // Método atacar recebe os parâmetros alvo e habilidade que são do tipo String
   void atacar(String alvo, String habilidade) {
     int danoCausado = calcularDano();
     //  O tamanho da (.length) é igual a 0
