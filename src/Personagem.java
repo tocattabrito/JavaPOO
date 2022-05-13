@@ -12,7 +12,7 @@ public class Personagem {
     System.out.format("Personagem: %s (lvl %d) com %d de força.\n", nome, nivel, forca);
   }
 
-  // O método ira gerar números aleatorios atráves do objeto Random()
+  // O método calcularDano ira gerar números aleatorios entre 1 e 20 atráves do objeto Random()
   int calcularDano () {
     Random gerador = new Random();
     // 1... 20
